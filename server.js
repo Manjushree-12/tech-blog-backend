@@ -16,7 +16,7 @@ app.use('/auth', authRoutes);
 app.use('/blogs', blogRoutes);
 
 // 🔗 Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/myblogdb', {
+mongoose.connect('mongodb+srv://manjushreerajendiran:manju2006@cluster0.nalwxru.mongodb.net/myblogdb?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
